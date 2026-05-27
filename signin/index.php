@@ -23,14 +23,14 @@ session_start();
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <title>Welcome back - Chirp</title>
+    <title>Welcome back - BlueSky</title>
 </head>
 
 <body>
     <header>
         <div id="desktopMenu">
             <nav>
-                <img src="/src/images/icons/chirp.svg" alt="Chirp" onclick="playChirpSound()">
+                <img src="/src/images/icons/chirp.svg" alt="BlueSky" onclick="playChirpSound()">
                 <a href="/"><img src="/src/images/icons/house.svg" alt=""> Home</a>
                 <a href="/discover"><img src="/src/images/icons/search.svg" alt=""> Discover</a>
                 <?php if (isset($_SESSION['username'])): ?>
@@ -85,9 +85,9 @@ session_start();
                 <p>You're currently browsing Chirp as a guest</p>
                 <p class="subText">You can't interact with chirps or post any of your own. You can't follow accounts
                     either.</p>
-                <p class="subText">If you have an account, you can sign in here:</p>
-                <a class="subText" href="/signup/">Need to create an account?</a>
-                <a class="subText" href="/signin/forgot/password/">or did you forget your password?</a>
+                <p class="subText">If you have a BlueSky account, you can sign in here:</p>
+                <a class="subText" href="https://bsky.app/">Need to create a BlueSky account?</a>
+                <a class="subText" href="https://bsky.app/">or did you forget your password?</a>
                 <form id="signInForm" method="post" action="/signin/signin.php">
                     <div id="signIn">
                         <div id="inputSignin">
@@ -95,7 +95,7 @@ session_start();
                                 <input type="text" id="username" name="username" placeholder="Username" required>
                                 <input type="password" id="pWord" name="pWord" placeholder="Password" required>
                             </div>
-                            <button type="submit" class="followButton">Sign in</button>
+                            <button type="submit" class="followButton">Sign in with BlueSky</button>
                         </div>
                     </div>
                 </form>

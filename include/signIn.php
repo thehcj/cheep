@@ -9,10 +9,10 @@
                     <button type="submit" class="postChirp" id="postButton" onclick="replaceSignInText(event)">Sign in</button>
                 </div>
                 <div id="signInContent" class="composerContent">
-                    <h1>Sign in to Chirp</h1>
-                    <p class="subText">You've left the nest! Let's get you signed in again!</p>
+                    <h1>Sign in to BlueSky</h1>
+                    <p class="subText">Enter your BlueSky handle or email and password to continue.</p>
                     <div id="signInCredentials">
-                        <input type="text" id="username" name="username" placeholder="Username" required>
+                        <input type="text" id="username" name="username" placeholder="BlueSky handle or email" required>
                         <input type="password" id="pWord" name="pWord" placeholder="Password" required>
                     </div>
                     <div>

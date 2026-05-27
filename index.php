@@ -33,14 +33,14 @@ try {
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <title>Home - Chirp</title>
+    <title>Home - BlueSky</title>
 </head>
 
 <body>
     <header>
         <div id="desktopMenu">
             <nav>
-                <img src="/src/images/icons/chirp.svg" alt="Chirp" onclick="playChirpSound()">
+                <img src="/src/images/icons/chirp.svg" alt="BlueSky" onclick="playChirpSound()">
                 <a href="/" class="activeDesktop"><img src="/src/images/icons/house.svg" alt=""> Home</a>
                 <a href="/discover"><img src="/src/images/icons/search.svg" alt=""> Discover</a>
                 <?php if (isset($_SESSION['username'])): ?>
@@ -108,9 +108,8 @@ try {
                 <div id="cookieConsent">
                     <div>
                         <p>🍪 Here, have some cookies!</p>
-                        <p class="subText">Chirp uses cookies to improve your experience, to personalize content, and to
-                            keep you signed in.
-                            If you decline all cookies*, you can still use Chirp, but some features may not work as
+                        <p class="subText">BlueSky uses cookies to improve your experience, personalize content, and keep you signed in.
+                            If you decline all cookies*, you can still use BlueSky, but some features may not work as
                             intended.
                         </p>
                         <div>
@@ -158,17 +157,17 @@ try {
     <?php include 'include/compose.php'; ?>
     <div id="signInModal" class="modal" style="display: none;">
         <div class="modal-content signIn">
-            <h2>Sign in to Chirp</h2>
-            <input type="text" id="username" placeholder="Email or username" required>
+            <h2>Sign in to BlueSky</h2>
+            <input type="text" id="username" placeholder="BlueSky handle or email" required>
             <div class="modal-buttons">
                 <button class="button followButton" id="okButton" onClick="closeWannaTalkAboutItModal()">Next</button>
-                <a target="_blank" rel="nooepner noreferer" href="https://www.wannatalkaboutit.com/"
-                    class="followButton following">Forgot password?</a>              
+                <a target="_blank" rel="noopener noreferrer" href="https://bsky.app/"
+                    class="followButton following">Need a BlueSky account?</a>
             </div>
             <div class="textButtons">
-                    <a class="noAccountInModal">Don't have an account? Sign up</a>
-                    <button onClick="closeWannaTalkAboutItModal()" class="noAccountInModal">Use Chirp as a guest instead</button>
-                    </div>
+                    <a class="noAccountInModal" href="https://bsky.app/">Create a BlueSky account</a>
+                    <button onClick="closeWannaTalkAboutItModal()" class="noAccountInModal">Use BlueSky as a guest</button>
+            </div>
         </div>
     </div>
     <script defer src="/src/scripts/loadChirps.js"></script>

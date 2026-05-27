@@ -219,7 +219,7 @@ if (!$id) {
                         <a id="likesNav" href="/user/likes?id=<?php echo htmlspecialchars($user['username']); ?>">Likes</a>
                     </div>
                 </div>
-                <div id="posts" data-offset="0" data-user-id="<?php echo htmlspecialchars($user['id']); ?>">
+                <div id="posts" data-offset="0" data-user-id="<?php echo htmlspecialchars($user['username']); ?>">
                     <!-- Chirps will be loaded here -->
                 </div>
                 <div id="noMoreChirps">

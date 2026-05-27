@@ -2,11 +2,12 @@
 
 ![Chirp logo](/src/images/users/chirp/banner.png)
 
-A social media project meant to mimic the feel of Twitter but be better
+A social media project converted into a BlueSky client front-end using BlueSky authentication and timeline fetching.
 
 ## Status
 
 ### What's working
+
 - [x] Account creation
 - [x] Posting
 - [x] Replying
@@ -14,10 +15,12 @@ A social media project meant to mimic the feel of Twitter but be better
 - [x] Account editing
 
 ### What isn't working
+
 - [ ] Reposts
 - [ ] Viewing likes and reposts on accounts
 
 ### What's planned
+
 - [ ] Post editing
 - [ ] Post deletion
 - [ ] Following
@@ -29,8 +32,8 @@ A social media project meant to mimic the feel of Twitter but be better
 
 ![Chirp on Desktop](/src/images/screenshots/chirpDesktop.png)
 
-
 ## Contributing to Chirp
+
 Chirps source code (as you can see) is open source. You can freely fork this repo, make changes and then create a pull request.
 If you'd like to, provide your Chirp username and you'll gain a contributors badge next to your name.
 
@@ -69,6 +72,3 @@ You can freely made copies of Chirp and use Chirps code as a base for your procj
 • Credit us: You should provide credit to the people who have contibuted to this project, or link this repo
 
 Other than that, Chirp uses the MIT license.
-
-
-
