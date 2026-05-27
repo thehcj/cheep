@@ -1,7 +1,7 @@
 <?php
 
 function bsky_api_request(string $endpoint, string $method = 'GET', $data = null, bool $useAuth = true, bool $retry = true): array {
-    $url = 'https://bsky.social/xrpc/' . $endpoint;
+    $url = 'https://eurosky.social/xrpc/' . $endpoint;
     $headers = [
         'Accept: application/json'
     ];
